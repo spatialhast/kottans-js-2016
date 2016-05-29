@@ -1,0 +1,38 @@
+body {
+	max-width: 980px;
+	background: #ECEEF4;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.nav-buttons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 200px;
+}
+
+.go-back, .sign-in{
+	color: #A5ABC5;
+	text-decoration: none;
+	text-transform: uppercase;	
+	border: 1px solid #C9D0E1;
+	border-radius: 3px;
+	padding: 15px 20px 15px 20px;
+}
+
+.go-back:hover, .sign-in:hover{
+	background-color: #5FCAC6;
+	color: #FFF;
+}
+
+.form {
+	background: #fff;
+	border: 1px solid #C9D0E1;
+	border-radius: 3px;
+	margin: 0 auto 80px;
+
+	height: 1200px;
+}

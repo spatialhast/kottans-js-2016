@@ -1,3 +1,9 @@
 
-.icon-user:before { content: '\e800'; } /* '' */
-.icon-left:before { content: '\e801'; } /* '' */
+.icon-left-1:before { content: '\e800'; } /* '' */
+.icon-user:before { content: '\e801'; } /* '' */
+.icon-heart-empty:before { content: '\e802'; } /* '' */
+.icon-compass:before { content: '\e803'; } /* '' */
+.icon-share:before { content: '\e804'; } /* '' */
+.icon-facebook-circled:before { content: '\e805'; } /* '' */
+.icon-twitter-circled:before { content: '\e806'; } /* '' */
+.icon-linkedin-circled:before { content: '\e807'; } /* '' */

@@ -7,16 +7,52 @@
   "ascent": 850,
   "glyphs": [
     {
-      "uid": "8b80d36d4ef43889db10bc1f0dc9a862",
-      "css": "user",
+      "uid": "f6d72aa5ef8e8f0e553012af9a29a87e",
+      "css": "left-1",
       "code": 59392,
       "src": "fontawesome"
     },
     {
-      "uid": "f6d72aa5ef8e8f0e553012af9a29a87e",
-      "css": "left",
+      "uid": "8b80d36d4ef43889db10bc1f0dc9a862",
+      "css": "user",
       "code": 59393,
       "src": "fontawesome"
+    },
+    {
+      "uid": "f3dc2d6d8fe9cf9ebff84dc260888cdf",
+      "css": "heart-empty",
+      "code": 59394,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "e5d624264734620fa9f98d59e6dc941f",
+      "css": "compass",
+      "code": 59395,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "4aad6bb50b02c18508aae9cbe14e784e",
+      "css": "share",
+      "code": 59396,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "33cea6d7bd699348c0d593e105361a51",
+      "css": "facebook-circled",
+      "code": 59397,
+      "src": "typicons"
+    },
+    {
+      "uid": "b523a5bcf8d08725038873d89bb003fd",
+      "css": "twitter-circled",
+      "code": 59398,
+      "src": "typicons"
+    },
+    {
+      "uid": "b2178b8fca35bac9e4bfcea4a4c05a92",
+      "css": "linkedin-circled",
+      "code": 59399,
+      "src": "typicons"
     }
   ]
 }

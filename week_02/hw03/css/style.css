@@ -1,20 +1,23 @@
 body {
-	max-width: 980px;
 	background: #ECEEF4;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 20px;
-	padding-right: 20px;
 }
 
-.page-header {
+.wrapper {
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+/* header */
+.header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	height: 200px;
 }
 
-.go-back, .sign-in{
+.go-back, .sign-in {
 	color: #A5ABC5;
 	text-decoration: none;
 	text-transform: uppercase;	
@@ -23,7 +26,7 @@ body {
 	padding: 15px 20px 15px 20px;
 }
 
-.go-back:hover, .sign-in:hover{
+.go-back:hover, .sign-in:hover {
 	background-color: #5FCAC6;
 	color: #FFF;
 }
@@ -33,6 +36,112 @@ body {
 	border: 1px solid #C9D0E1;
 	border-radius: 3px;
 	margin: 0 auto 80px;
-
 	height: 1200px;
 }
+
+/* main */
+.main {
+  background: #fff;
+  border:solid 1px #c9d0e1;
+  border-radius: 4px;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+	footer {
+		background: #384764;
+		color: #c6ccea;
+		display: block;
+		font-size:11px;
+		margin-top: 80px;
+		padding: 50px 0;
+	}
+
+	.footer-section {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	    justify-content: space-between;
+	}
+  
+	.footer-section article {
+		padding-left: 40px;
+		max-width: 200px;
+	}
+
+	.footer-section h1{
+		display: block;
+		font-size:13px;
+		margin: 0 0 20px -40px;
+		text-transform: uppercase;
+	}
+  
+	.footer-section h1 i {
+		font-size:21px;
+		margin-right: 10px;
+		position: relative;
+		top: 2px;
+	}
+  
+	.footer-section p {
+		font-style: italic;
+		line-height: 16px;
+	}
+  
+	.footer-section address {
+		line-height: 16px;
+	}
+  
+	.footer-section address a {
+		text-decoration: none;
+	}
+  
+	.footer-section ul li {
+		display: block;
+	}
+  
+	.footer-section ul li:not(:first-child) {
+		margin-top: 8px;
+	}
+  
+	.footer-section ul li i {
+		font-size:14px;
+		margin-right: 8px;
+		position: relative;
+	}
+  
+	.footer-section p,
+	.footer-section address,
+	.footer-section ul {
+		display: block;
+	}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+

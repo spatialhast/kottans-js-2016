@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang=en>
+<head>
+	<meta charset=utf-8>
+	<title>Form Page</title>
+</head>
+<body>
+
+<header class="page-header">
+  <a href="#" class="go-back">GO BACK</a>
+  <a href="#" class="logo">
+    <figure>
+      <img src=img/logo.png alt="logo-img">
+    </figure>
+  </a>
+  <a href="#" class="sign-in">SIGN IN</a>
+</header>
+
+<main>
+  <form action="/" method="post">
+    <header class="order-form-header">
+      <section class="order">
+        <div class="order-summary">
+          <h1 class="title">YOUR ORDER</h1>
+          <table class="order-details">
+            <thead>
+              <tr>
+                <th>ITEMS</th>
+                <th>DETAILS</th>
+                <th>PRICE</th>
+                <th>DELIVERY</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2 documents</td>
+                <td>2 languages</td>
+                <td>$ 696.06</td>
+                <td>48 hours*</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="order-actions">
+          <button class="place-order">PLACE ORDER</button>
+          <button class="print-quote">PRINT A QUOTE</button>
+        </div>
+      </section>
+      <section class="help-center">
+        <h1>HELP CENTER</h1>
+        <p>If you need assistance while placing your order, contact one of our beloved Project Manager by phone or email.</p>
+        <address>
+          <a href="tel:009710555555">+971 (0) 555 555</a>
+          <a href="mailto:help@qtest.com">help@qtest.com</a>
+        </address>
+      </section>
+    </header>
+
+    <section class="select-source">
+      <h1>SELECT WHAT YOU WANT TO TRANSLATE</h1>
+      <div>
+        <input type="radio" name="source" id="source-website">
+        <label for="source-website">Website</label>
+        <input type="radio" name="source" id="source-documents" checked>
+        <label for="source-documents">Documents</label>
+        <input type="radio" name="source" id="source-social">
+        <label for="source-social">Social Account</label>
+      </div>
+    </section>
+
+    <section class="upload">
+      <h1>Upload your documents
+        <small>(Doc, Docx, Text, PDF, Markdown)</small>
+      </h1>
+      <button class="upload-new-file">Upload a new file</button>
+      <table class="files-details">
+        <thead>
+          <tr>
+            <th>FILE NAME</th>
+            <th>FILE SIZE</th>
+            <th>NUMBER OF WORDS</th>
+            <th>REMOVE</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td class="file-name">business_operations.docx</td>
+          <td>78kb</td>
+          <td>842</td>
+          <td><a role="button" href="">&#10006;</a></td>
+        </tr>
+        <tr>
+          <td class="file-name">business_financial.docx</td>
+          <td>26kb</td>
+          <td>2,326</td>
+          <td><a role="button" href="">&#10006;</a></td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="language-pairings">
+      <label for="lng-from">FROM</label>
+      <select name="lng-from" id="lng-from">
+        <option value="English" selected>English</option>
+        <option value="Arabic">Arabic</option>
+        <option value="Kurdish">Kurdish</option>
+      </select>
+
+      <label for="lng-to">TO</label>
+      <select name="lng-to" id="lng-to">
+        <option value="English">English</option>
+        <option value="Arabic" selected>Arabic</option>
+        <option value="Kurdish">Kurdish</option>
+      </select>
+      
+      <select name="lng-additional">
+        <option value="English">English</option>
+        <option value="Arabic">Arabic</option>
+        <option value="Kurdish" selected>Kurdish</option>
+      </select>
+      <a role="button" href="">&#10006;</a>
+      <button class="add-language">ADD</button>
+    </section>
+
+    <section class="desired-tone">
+      <h1>Select your desired tone</h1>
+      <input type="radio" name="tone" id="tone-casual">
+      <label for="tone-casual">Friendly / Casual</label>
+      <input type="radio" name="tone" id="tone-pro" checked>
+      <label for="tone-pro">Corporate / Pro</label>
+      <input type="radio" name="tone" id="tone-formal">
+      <label for="tone-formal">Media / Formal</label>
+    </section>
+
+    <section class="urgency">
+      <h1>Tell us how urgent this job is</h1>
+      <input type="range" name="urgency" id="urgency" min="0" max="2">
+      <div class="labels">
+        <span class="low">I GOT TIME</span>
+        <span class="average">AVERAGE</span>
+        <span class="high">YESTERDAY</span>
+      </div>
+      <article class="info">
+        <h1>TIMELINE INFO</h1>
+        <p>With an <mark>AVERAGE</mark> timeline set up, our expert translator can take a reasonable amount of time perfecting your translation</p>
+      </article>
+    </section>
+
+    <section class="payment">
+      <h1>Sign up and choose a payment method</h1>
+      <p>Already have an account with us? <a href="#" class="sign-in">Sign in.</a></p>
+      <label for="full-name">FULL NAME</label>
+      <input type="text" name="full-name" id="full-name">
+      <label for="email">EMAIL ADDRESS</label>
+      <input type="email" name="email" id="email">
+      <label for="password">CHOSE A PASSWORD</label>
+      <input type="password" name="password" id="password">
+
+      <div class="payment-types">
+        <input type="radio" name="payment-type" id="payment-type-card" checked>
+        <label for="payment-type-card">card</label>
+        <input type="radio" name="payment-type" id="payment-type-paypal">
+        <label for="payment-type-paypal">paypal</label>
+        <input type="radio" name="payment-type" id="payment-type-amazon">
+        <label for="payment-type-amazon">amazon</label>
+      </div>
+
+      <div class="card-details">
+        <label for="cc-number">CARD NUMBER</label>
+        <input type="text" name="cc-number" id="cc-number">
+        <label for="cc-exp">EXPIRY DATE</label>
+        <input type="date" name="cc-exp" id="cc-exp">
+        <label for="cc-code">CODE</label>
+        <input type="password" name="cc-code" id="cc-code">
+      </div>
+    </section>
+
+    <section class="place-oreder">
+      <input type="checkbox" name="agreement" id="agreement">
+      <label for="agreement">I agree to the <a href="#">Terms &amp; Conditions</a></label>
+      <button class="place-order">PLACE ORDER</button>
+      <button class="print-quote">PRINT A QUOTE</button>
+    </section>
+  </form>
+</main>
+
+<footer>
+  <section class="footer-section wrapper">
+    <article>
+      <h1><i class="icon-heart-empty"></i>WHAT WE DO</h1>
+      <p>We provide a full range of language services including content development, document, website and social media accounts translations.</p>
+    </article>
+    <article>
+      <h1><i class="icon-compass"></i>OUR MAIN OFFICE</h1>
+      <address>
+        Dubai,OAE <br>
+        P.O. Box:502735 <br>
+        Phone: <a href="tel:+971044278128">+971(0)44278128</a>
+      </address>
+    </article>
+    <article>
+      <h1><i class="icon-share"></i>CONNECT WITH US</h1>
+      <ul>
+        <li><a href="#"><i class="icon-facebook-circled"></i>Facebook</a>
+        <li><a href="#"><i class="icon-twitter-circled"></i>Twitter</a>
+        <li><a href="#"><i class="icon-linkedin-circled"></i>LinkedIn</a>
+      </ul>
+    </article>
+    <a href="#" class="logo">
+      <figure>
+        <img src=img/logo.png alt="logo-img">
+      </figure>
+    </a>
+  </section>
+</footer>
+
+</body>
+</html>

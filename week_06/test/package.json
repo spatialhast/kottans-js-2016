@@ -1,0 +1,14 @@
+{
+  "name": "ava-test",
+  "version": "1.0.0",
+  "description": "ava-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "spatialhast",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.15.2"
+  }
+}

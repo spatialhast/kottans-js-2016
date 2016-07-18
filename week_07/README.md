@@ -27,7 +27,11 @@ app.start(config.host, config.port, () => console.log("listening on" + config.po
 
 
 cd C:\OSGeo4W\apache\htdocs\GitHub\kottans-js-2016\week_07
+
 npm init
+
 npm install
+
+npm start
 
 
